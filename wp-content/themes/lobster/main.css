@@ -1,0 +1,103 @@
+
+.navbar{
+	margin-bottom: 0px !important;
+	padding-bottom: 10px;
+	color: ;
+}
+
+
+#home {
+	background: url('images/background1.jpg') no-repeat fixed;
+			-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	padding-top: 25px;
+
+}
+#page {
+	background: url('images/background1.jpg') no-repeat fixed;
+			-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	padding-top: 25px;	
+}
+
+#content {
+	background: #fff;
+	opacity: .9;
+}
+
+
+#hotel-search {
+	background: #006687;
+	color: #fff !important;
+}
+
+#hotel-search h3{
+	background: #006687;
+	color: #fff !important;
+}
+
+
+#dest-feed h3 {
+	color:#fff;
+}
+
+
+.hotel_list_item{
+	height: 100px;
+}
+
+.accordion-toggle{
+	font-size: 32px;
+	padding:0px;
+	margin-top: -15px;
+	color:#fff;
+}
+.dest-heading{
+	display: inline;
+}
+
+#dest_list img{
+	padding: 5px;
+
+}
+
+.dest-body{
+	position: absolute;
+	z-index: 1000 ;
+	width:100%;
+
+}
+
+.price_block {
+	min-height: 90px;
+	min-width: 17%;
+	padding-right: 1%;
+}
+
+.price {
+	display: inline;
+
+}
+
+.text_block {
+min-width: 60%;
+}
+
+
+
+#dest_list h3{
+
+
+}
+.tour-list-item{
+	height: 125px;	
+
+}
+.tour-image img{
+	padding: 30px 0px;
+	width:100%;
+}
