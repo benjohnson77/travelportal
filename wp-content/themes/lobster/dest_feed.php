@@ -24,7 +24,7 @@
 
 		<div class="dest-list list-group">
 									
-			<div class="dest-header list-group-item" style="background: url('<?php echo bloginfo('template_directory').'/'.$feed['image']; ?>') no-repeat;
+			<div class="dest-header list-group-item " style="background: url('<?php echo bloginfo('template_directory').'/'.$feed['image']; ?>') no-repeat;
 				-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;

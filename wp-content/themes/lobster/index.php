@@ -15,6 +15,7 @@ get_header();
 		</div>
 		<div class="row">
 			<?php echo get_template_part('tour_feed'); ?> 
+			<?php echo get_template_part('tour_cat'); ?>
 		</div>
 	</div>	  
 </div>

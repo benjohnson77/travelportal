@@ -1,13 +1,12 @@
 (function ( $ ) {
 $(document).ready(function(){
-
-
-
     
     $('.dest-list').on('click','.dest-header', function() {
-    var position = $(this).position();  
-    if ($(this).parent().find('.tours') == false){
-      $(this).parent().find('.dest-body').css( { left: position.left, bottom: position.top + 125} );	
+    
+    var position = $(this).position();
+
+    if ($(this).hasClass('tours')){
+      $(this).parent().find('.dest-body').css( { left: position.left, top: position.top - 625 } );	
     }
     else{
       $(this).parent().find('.dest-body').css( { left: position.left, top: position.top + 125} ); 
@@ -23,8 +22,10 @@ $(document).ready(function(){
      	}
     });
 
-    $('body').on('click','#page' , function() {
+    $('body').on('click','#home' , function(e) {
+      if ($(e.target).parents('#dest-feed').length == 0){
         $('.dest-body').hide();
+      }
     });
 });
 

@@ -44,7 +44,9 @@
 #dest-feed h3 {
 	color:#fff;
 }
-
+.category li{
+	list-style: none;
+}
 
 .hotel_list_item{
 	height: 100px;
@@ -84,7 +86,7 @@
 }
 
 .text_block {
-min-width: 60%;
+	min-width: 60%;
 }
 
 
