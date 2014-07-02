@@ -5,14 +5,14 @@
 	<div class="row">
 
 	<?php 
-	$feeds = [ 
-		"New York" => [ "url" => "http://merchandising.expediaaffiliate.com/campaign/?campaignId=98713&cid=457656",
-						"image" => "images/nyc.jpg"],
-		"Las Vegas" => [ "url" => "http://merchandising.expediaaffiliate.com/campaign/?campaignId=98680&cid=457656",
-						"image" => "images/las-vegas.jpg"],
-		"Orlando" => [ "url" => "http://merchandising.expediaaffiliate.com/campaign/?campaignId=98876&cid=457656",
-						"image" => "images/orlando.jpg"]				
-		];
+	$feeds = array(
+		"New York" => array("url" => "http://merchandising.expediaaffiliate.com/campaign/?campaignId=98713&cid=457656",
+						"image" => "images/nyc.jpg"),
+		"Las Vegas" => array( "url" => "http://merchandising.expediaaffiliate.com/campaign/?campaignId=98680&cid=457656",
+						"image" => "images/las-vegas.jpg"),
+		"Orlando" => array( "url" => "http://merchandising.expediaaffiliate.com/campaign/?campaignId=98876&cid=457656",
+						"image" => "images/orlando.jpg")
+		);
 	?>
 	<?php 
 		$count = 0;
